@@ -31,7 +31,7 @@ jobs:
 
       name: Run tests
       run: |
-        pytest -s --html=report.html -self-contained-html
+        pytest
 
       name: Upload report
       uses: actions/upload-artifact@v3
