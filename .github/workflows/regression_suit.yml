@@ -38,6 +38,9 @@ jobs:
         with:
           name: pytest-report
           path: reports/assets/report.html
+
+      - name: Debug File System
+        run: ls -R
       
     
       
