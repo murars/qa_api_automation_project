@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pytest-report
-          path: reports/assets/report.html
+          path: reports/*.html
 
       - name: Debug File System
         run: ls -R
